@@ -1,0 +1,61 @@
+
+body {
+    background: url(./rock-paper-scissor.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 0;
+    padding: 0;
+    max-width: 600px;
+    min-height: 200px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+    
+
+  }
+
+  h2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+    flex-direction: row; 
+    color:aquamarine;
+    font-size: 40px;
+    text-align: center;
+  }
+
+ #Rock  {
+     color: blue;
+     background-color: transparent;
+     font-size: 50px;
+    
+  }
+
+  #Paper {
+    color:coral;
+    background-color: transparent;
+     font-size: 50px;
+     
+  }
+
+  #Scissors {
+      color:rgb(255, 193, 21);
+      background-color: transparent;
+     font-size: 50px;
+  }
+
+  #computer-choice {
+      color: aqua;
+  }
+
+  #user-choice {
+      color:deeppink;
+  }
+
+  #result {
+      color:floralwhite;
+  }
+ 
+  .Computerchoice {
+      color:forestgreen;
+  }
